@@ -1,0 +1,106 @@
+.contact__content{
+    padding:20px;
+}
+.contact__content__header-text{
+    color:#ffffff;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    position: relative;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-bottom: 2px solid #ffdd40 ;
+}
+.contact__content__header-text::before,
+.contact__content__header-text::after{
+    position: absolute;
+    content:"";
+    width:2px;
+    height: 5px;
+    background-color: #ffdd40;
+    bottom: -1px;
+}
+.contact__content__header-text::before{
+    left: 0;
+}
+.contact__content__header-text::after{
+    right: 0;
+}
+.contact__content__form{
+    margin-top: 30px;
+}
+.contact__content__form__controlwrapper{
+   display: grid;
+   grid-template-columns: repeat(2,1fr); 
+   gap: 40px;
+margin-bottom:30px ;
+}
+.contact__content__form__controlwrapper div{
+    position: relative;
+   
+}
+.contact__content__form__controlwrapper div .inputName,
+.contact__content__form__controlwrapper div .inputemail,
+.contact__content__form__controlwrapper div .inputdescription{
+    width: 100%;
+    border: 2px solid #ffdd40;
+    padding: 16px 12px;
+    transition: all 0.5s ease;
+    position: relative;
+    background-color: transparent;
+    color: #ffffff;
+
+}
+.contact__content__form__controlwrapper div .nameLabel,
+.contact__content__form__controlwrapper div .emailLabel,
+.contact__content__form__controlwrapper div .descriptionLabel{
+
+    font-weight: 500;
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    transition:all 0.2s ease;
+    color: #ffdd40;
+    font-size: 16px;
+}
+.contact__content__form__controlwrapper div .inputName:focus,
+.contact__content__form__controlwrapper div .inputemail:focus,
+.contact__content__form__controlwrapper div .inputdescription:focus{
+    outline: none;
+}
+
+.contact__content__form__controlwrapper div .inputName:valid + .nameLabel,
+.contact__content__form__controlwrapper div .inputName:focus + .nameLabel,
+.contact__content__form__controlwrapper div .inputemail:focus + .emailLabel,
+.contact__content__form__controlwrapper div .inputemail:valid + .emailLabel,
+.contact__content__form__controlwrapper div .inputdescription:focus + .descriptionLabel,
+.content__form__controlwrapper div .inputdescription:valid + .descriptionLabel{
+
+    font-size: 18px;
+    top: -25px;
+    left: 0px;
+
+}
+button{
+    cursor: pointer;
+    padding: 10px 70px;
+    font-size: 2rem;
+    background: transparent;
+    color: #ffdd40;
+    border-radius: 4px;
+    font-weight: 500;
+}
+@media  screen and (max-width:760px) {
+
+    .contact__content__form{
+    text-align: center;
+}
+.contact__content__form__controlwrapper{
+    display: grid;
+    grid-template-columns: repeat(1,1fr); 
+   
+ 
+ }
+}

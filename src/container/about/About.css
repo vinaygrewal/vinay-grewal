@@ -1,0 +1,66 @@
+.about__content{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+.about__content__personalwrapper ,.about__content__skillswrapper{
+    width: 50%;
+
+}
+.about__content__personalwrapper h3{
+margin-bottom: 10px;
+font-size: 2.5rem;
+font-weight: 700;
+color: #ffdd40;
+
+}
+.personalInformationHeaderText{
+    padding-top: 20px;
+}
+.about__content__personalwrapper p{
+    color:#ffffff;
+    font-size: 1.8rem;
+    line-height: 1.65;
+    padding-bottom: 20px;
+    border-bottom:1px dashed #ffdd40;
+
+}
+.about__content__personalwrapper li{
+    line-height: 1rem;
+    margin-bottom: 15px;
+    
+}
+.about__content__personalwrapper span{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    
+    position: relative;
+    display: inline-block;
+    margin-right:16px ;
+    padding-bottom: 2.5px;
+    color:#ffffff
+
+}
+.title{
+    
+    margin-bottom: 5px;
+}
+
+.skill__heading{
+    margin: 20px 0;
+font-size: 2.5rem;
+font-weight: 700;
+color: #ffdd40;
+text-align: center;
+border-bottom:1px dashed #ffdd40;
+}
+.skill__name{
+    color:#ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 10px;
+}

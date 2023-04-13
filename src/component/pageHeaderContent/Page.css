@@ -1,0 +1,24 @@
+.wrapper{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px dashed #ffdd40;
+}
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 1rem;
+    text-transform: capitalize;
+    color: #ffdd40;
+    display: flex;
+    flex-grow: 1;
+    /* justify-content: space-between; */
+
+}
+/* span{
+    color: #ffdd40;
+} */
+svg{
+    color: #ffdd40;
+}

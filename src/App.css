@@ -1,0 +1,10 @@
+.main{
+   height: 100%;
+    /* //kyuki sare component app m store hai isse or component p padding or margin lagzayegi */
+
+}
+.containerElement{
+    height: calc(100% - 80px);
+ /* because 8 rem is the height of navbar */
+
+}
