@@ -23,7 +23,7 @@ const personalDetails = [
 },
 ];
 
-const jobSummary = "I want to become an successfull IT Professional by gaining technical & non-technical skills continuosly."
+const jobSummary = "I want to become a successfull IT Professional by gaining technical & non-technical skills continuosly."
 const language =[
   {
     value:"Javascript",
