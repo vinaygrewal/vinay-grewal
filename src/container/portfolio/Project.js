@@ -10,6 +10,7 @@ import mcounter from "../../images/movie_counter.PNG";
 import dkit from "../../images/drum-kit.PNG";
 import psite from "../../images/personal-site.PNG";
 import dtanz from "../../images/digitanz.PNG";
+import fapp from "../../images/food-app.PNG";
 import "./Portfolio.css";
 import {useState} from 'react';
 
@@ -66,7 +67,7 @@ const projectData =[
 },
   {id:9,
   name:"Food App",
-  image:dtanz,
+  image:fapp,
   category:"Html & Css",
   link:"https://food-app-lemon-mu.vercel.app/"
 }
