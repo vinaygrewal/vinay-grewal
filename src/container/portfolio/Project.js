@@ -64,6 +64,12 @@ const projectData =[
   category:"Javascript or ReactJs",
   link:"https://dicegame-ten.vercel.app/"
 },
+  {id:9,
+  name:"Food App",
+  image:dtanz,
+  category:"Html & Css",
+  link:"https://food-app-lemon-mu.vercel.app/"
+}
 
 ]
 
