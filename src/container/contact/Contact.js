@@ -38,7 +38,7 @@ const Contact = () => {
         >
         <div className='contact__content__form'>
         <div className='contact__content__form__controlwrapper'>
-          <form action="mailto:vinaygrewal23@gmail.com">
+         
            <div >
            <input required name="name" className='inputName' type="text" />
            <label htmlFor="name" className='nameLabel'>Name</label>
@@ -51,7 +51,7 @@ const Contact = () => {
            <textarea rows="4" required name="description" className='inputdescription' type="text" />
            <label htmlFor="description" className='descriptionLabel'>Description</label>
            </div>
-          </form>
+         
         </div>
         <button>Submit</button>
 
